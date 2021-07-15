@@ -18,6 +18,7 @@ metadata:
   name: knative-eventing-githubsource-adapter
   labels:
     eventing.knative.dev/release: devel
+    sources.knative.dev/service: github
 subjects:
   - kind: ServiceAccount
     name: github-adapter

@@ -21,6 +21,7 @@ metadata:
     contrib.eventing.knative.dev/release: devel
     sources.knative.dev/role:    adapter
     eventing.knative.dev/source: github-source-controller
+    sources.knative.dev/service: github
 spec:
   template:
     spec:
